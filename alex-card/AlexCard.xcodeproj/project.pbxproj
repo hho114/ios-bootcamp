@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACE66602530A212007DE110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE665F2530A212007DE110 /* AppDelegate.swift */; };
+		FACE66622530A212007DE110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE66612530A212007DE110 /* SceneDelegate.swift */; };
+		FACE66642530A212007DE110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE66632530A212007DE110 /* ContentView.swift */; };
+		FACE66662530A215007DE110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE66652530A215007DE110 /* Assets.xcassets */; };
+		FACE66692530A215007DE110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE66682530A215007DE110 /* Preview Assets.xcassets */; };
+		FACE666C2530A215007DE110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE666A2530A215007DE110 /* LaunchScreen.storyboard */; };
+		FACE66762530A47F007DE110 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FACE66752530A47F007DE110 /* Pacifico-Regular.ttf */; };
+		FACE66792530AA71007DE110 /* InforView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE66782530AA71007DE110 /* InforView.swift */; };
+		FACE667C2530AD22007DE110 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FACE667B2530AD22007DE110 /* README.md */; };
+		FACE66802530AE32007DE110 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = FACE667F2530AE32007DE110 /* screenshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FACE665C2530A212007DE110 /* AlexCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE665F2530A212007DE110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACE66612530A212007DE110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FACE66632530A212007DE110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FACE66652530A215007DE110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACE66682530A215007DE110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FACE666B2530A215007DE110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACE666D2530A215007DE110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE66752530A47F007DE110 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		FACE66782530AA71007DE110 /* InforView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InforView.swift; sourceTree = "<group>"; };
+		FACE667B2530AD22007DE110 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FACE667F2530AE32007DE110 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACE66592530A212007DE110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACE66532530A212007DE110 = {
+			isa = PBXGroup;
+			children = (
+				FACE667B2530AD22007DE110 /* README.md */,
+				FACE665E2530A212007DE110 /* AlexCard */,
+				FACE665D2530A212007DE110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACE665D2530A212007DE110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACE665C2530A212007DE110 /* AlexCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACE665E2530A212007DE110 /* AlexCard */ = {
+			isa = PBXGroup;
+			children = (
+				FACE667E2530AE22007DE110 /* screenshots */,
+				FACE66742530A45F007DE110 /* fonts */,
+				FACE665F2530A212007DE110 /* AppDelegate.swift */,
+				FACE66612530A212007DE110 /* SceneDelegate.swift */,
+				FACE66632530A212007DE110 /* ContentView.swift */,
+				FACE66782530AA71007DE110 /* InforView.swift */,
+				FACE66652530A215007DE110 /* Assets.xcassets */,
+				FACE666A2530A215007DE110 /* LaunchScreen.storyboard */,
+				FACE666D2530A215007DE110 /* Info.plist */,
+				FACE66672530A215007DE110 /* Preview Content */,
+			);
+			path = AlexCard;
+			sourceTree = "<group>";
+		};
+		FACE66672530A215007DE110 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FACE66682530A215007DE110 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FACE66742530A45F007DE110 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FACE66752530A47F007DE110 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		FACE667E2530AE22007DE110 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				FACE667F2530AE32007DE110 /* screenshot.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACE665B2530A212007DE110 /* AlexCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE66702530A215007DE110 /* Build configuration list for PBXNativeTarget "AlexCard" */;
+			buildPhases = (
+				FACE66582530A212007DE110 /* Sources */,
+				FACE66592530A212007DE110 /* Frameworks */,
+				FACE665A2530A212007DE110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexCard;
+			productName = AlexCard;
+			productReference = FACE665C2530A212007DE110 /* AlexCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACE66542530A212007DE110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FACE665B2530A212007DE110 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FACE66572530A212007DE110 /* Build configuration list for PBXProject "AlexCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACE66532530A212007DE110;
+			productRefGroup = FACE665D2530A212007DE110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACE665B2530A212007DE110 /* AlexCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACE665A2530A212007DE110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE666C2530A215007DE110 /* LaunchScreen.storyboard in Resources */,
+				FACE66762530A47F007DE110 /* Pacifico-Regular.ttf in Resources */,
+				FACE667C2530AD22007DE110 /* README.md in Resources */,
+				FACE66692530A215007DE110 /* Preview Assets.xcassets in Resources */,
+				FACE66802530AE32007DE110 /* screenshot.png in Resources */,
+				FACE66662530A215007DE110 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACE66582530A212007DE110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE66602530A212007DE110 /* AppDelegate.swift in Sources */,
+				FACE66622530A212007DE110 /* SceneDelegate.swift in Sources */,
+				FACE66642530A212007DE110 /* ContentView.swift in Sources */,
+				FACE66792530AA71007DE110 /* InforView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACE666A2530A215007DE110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE666B2530A215007DE110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACE666E2530A215007DE110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACE666F2530A215007DE110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACE66712530A215007DE110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlexCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V885G793SP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlexCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhuyho.AlexCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACE66722530A215007DE110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlexCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V885G793SP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlexCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhuyho.AlexCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACE66572530A212007DE110 /* Build configuration list for PBXProject "AlexCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE666E2530A215007DE110 /* Debug */,
+				FACE666F2530A215007DE110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE66702530A215007DE110 /* Build configuration list for PBXNativeTarget "AlexCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE66712530A215007DE110 /* Debug */,
+				FACE66722530A215007DE110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACE66542530A212007DE110 /* Project object */;
+}
