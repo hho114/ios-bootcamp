@@ -12,11 +12,13 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(posts){ post in
+            List(networkManager.posts){ post in
                 Text(post.title)
                 
             }
             .navigationBarTitle("H4XER news")
+        }.onAppear{
+            self.networkManager.fetchData()
         }
     }
 }

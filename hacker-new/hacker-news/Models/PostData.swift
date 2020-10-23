@@ -10,7 +10,7 @@ import Foundation
 struct Results: Decodable {
     let hits: [Post]
    
-}
+}   
 
 struct Post: Decodable, Identifiable {
     
