@@ -14,6 +14,8 @@
 		FACE66F22530C9EE007DE110 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE66F12530C9EE007DE110 /* NetworkManager.swift */; };
 		FACE66F72530CA4E007DE110 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE66F62530CA4E007DE110 /* PostData.swift */; };
 		FACE67252530D208007DE110 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FACE67242530D208007DE110 /* README.md */; };
+		FAECAA122543423F001D8026 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECAA112543423F001D8026 /* DetailView.swift */; };
+		FAECAA15254349F2001D8026 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECAA14254349F2001D8026 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FACE66F12530C9EE007DE110 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FACE66F62530CA4E007DE110 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		FACE67242530D208007DE110 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAECAA112543423F001D8026 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FAECAA14254349F2001D8026 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 			children = (
 				FACE66F02530C9D1007DE110 /* Models */,
 				FACE66E02530C96F007DE110 /* hacker_newsApp.swift */,
-				FACE66E22530C96F007DE110 /* ContentView.swift */,
+				FAECAA0F25434212001D8026 /* Views */,
 				FACE66E42530C971007DE110 /* Assets.xcassets */,
 				FACE66E92530C971007DE110 /* Info.plist */,
 				FACE66E62530C971007DE110 /* Preview Content */,
@@ -84,6 +88,16 @@
 				FACE66F62530CA4E007DE110 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FAECAA0F25434212001D8026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FACE66E22530C96F007DE110 /* ContentView.swift */,
+				FAECAA112543423F001D8026 /* DetailView.swift */,
+				FAECAA14254349F2001D8026 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,8 @@
 				FACE66F22530C9EE007DE110 /* NetworkManager.swift in Sources */,
 				FACE66F72530CA4E007DE110 /* PostData.swift in Sources */,
 				FACE66E32530C96F007DE110 /* ContentView.swift in Sources */,
+				FAECAA15254349F2001D8026 /* WebView.swift in Sources */,
+				FAECAA122543423F001D8026 /* DetailView.swift in Sources */,
 				FACE66E12530C96F007DE110 /* hacker_newsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
