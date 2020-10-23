@@ -30,6 +30,7 @@
 		FACE67242530D208007DE110 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAECAA112543423F001D8026 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FAECAA14254349F2001D8026 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FAECAA1725434B66001D8026 /* hacker-news.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hacker-news.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		FACE66DF2530C96F007DE110 /* hacker-news */ = {
 			isa = PBXGroup;
 			children = (
+				FAECAA1725434B66001D8026 /* hacker-news.entitlements */,
 				FACE66F02530C9D1007DE110 /* Models */,
 				FACE66E02530C96F007DE110 /* hacker_newsApp.swift */,
 				FAECAA0F25434212001D8026 /* Views */,
@@ -303,6 +305,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hacker-news/hacker-news.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"hacker-news/Preview Content\"";
 				DEVELOPMENT_TEAM = V885G793SP;
@@ -315,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhuyho.hacker-news";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,6 +330,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hacker-news/hacker-news.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"hacker-news/Preview Content\"";
 				DEVELOPMENT_TEAM = V885G793SP;
@@ -337,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhuyho.hacker-news";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
