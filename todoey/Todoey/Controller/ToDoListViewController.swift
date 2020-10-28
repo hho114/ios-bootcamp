@@ -94,23 +94,47 @@ class ToDoListViewController: UITableViewController {
             print("error encoding item array, \(error)")
             
         }
-        self.tableView.reloadData()
+        
+        tableView.reloadData()
     }
     
-    func loadItem() {
-        let request : NSFetchRequest<Item> = Item.fetchRequest()
+    func loadItem(with request : NSFetchRequest<Item> = Item.fetchRequest()) {
+        
             do {
                 itemArray = try context.fetch(request)
              } catch {
                 print("error decoding item \(error)")
             }
-        
+        tableView.reloadData()
     }
     
     
 }
 
 
-
+extension ToDoListViewController : UISearchBarDelegate{
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+        
+        
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        
+        
+        loadItem(with: request)
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchBar.text?.count == 0 {
+            loadItem()
+            DispatchQueue.main.async {
+                searchBar.resignFirstResponder()
+            }
+        }
+    }
+}
 
 
